@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convertir Imagen a PDF</title>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script> -->
+</head>
+<body>
+    <input type="file" id="imageInput" accept="image/*">
+    <button id="convertButton">Convertir a PDF</button>
+    <button id="downloadButton" style="display: none;">Descargar PDF</button>
+    <div id="imageContainer" style="display: none;">
+        <img id="imagePreview" alt="Imagen" style="max-width: 300px; max-height: 300px;">
+    </div>
+
+    <script src="app.js"></script>
+    <script src="jspdf.min.js"></script>
+</body>
+</html>
